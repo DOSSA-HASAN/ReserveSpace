@@ -72,7 +72,7 @@ table tr:nth-child(odd){
     color: yellow;
 }
 
-table tr:first-of-type{
+table tr:first-child{
     color: black;
     background-color: transparent;
 }
