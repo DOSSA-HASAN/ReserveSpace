@@ -3,7 +3,7 @@
 ReserveSpace is a simple web application for managing bookings and reservations.
 
 ## LIVE DEMO
-(livedemo)[https://dossa-hasan.github.io/ReserveSpace/]
+[livedemo](https://dossa-hasan.github.io/ReserveSpace/)
 
 ## Description
 
