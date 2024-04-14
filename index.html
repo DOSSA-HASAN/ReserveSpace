@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3347965def.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="flex align-center justify-center">
+        <i class="fa-solid fa-hotel"></i>
+        <h1>ReserveSpace</h1>
+    </header>
+
+    <section>
+        <main class="flex justify-between">
+            <input type="text" id="personName" placeholder="Enter room holder name" required>
+            <input type="number" id="idNum" placeholder="Enter ID number" required>
+            <input type="tel" placeholder="Primary Tel NO" required id="personTel">
+            <input type="email" placeholder="Primary Email Address" required id="personEmail">
+            <select id="rooms">
+                <option value="none" selected hidden>Select Number of rooms</option>
+                <option value="1">Couple room (1br)</option>
+                <option value="2">Nuclear family (2br)</option>
+                <option value="3">Freinds n Family (3br)</option>
+                <option value="4">Vacation package (4br)</option>
+            </select>
+            <input type="date" id="duration">
+            <button id="addBookin">Confirm Booking</button>
+        </main>
+    </section>
+
+    <section>
+        <table id="bookingRecords">
+            <tr>
+                <th>Name</th>
+                <th>ID Number</th>
+                <th>Tel Number</th>
+                <th>Email</th>
+                <th>Number of Rooms</th>
+                <th>Duration</th>
+                <th>Room Number</th>
+                <th>Extend Stay</th>
+                <th>Confirm Checkout</th>
+            </tr>
+            <!-- <tr>
+                <td>field</td>
+                <td>field</td>
+                <td>field</td>
+                <td>field</td>
+                <td>field</td>
+                <td>field</td>
+                <td>field</td>
+                <td>field</td>
+                <td><input type="date"></td>
+            </tr>
+
+            <tr>
+                <td>field</td>
+                <td>field</td>
+                <td>field</td>
+                <td>field</td>
+                <td>field</td>
+                <td>field</td>
+                <td>field</td>
+                <td>field</td>
+                <td><input type="date"></td>
+            </tr> -->
+        </table>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+header{
+    padding: 20px;
+}
+
+.fa-hotel{
+    font-size: 30px;
+    padding-right: 10px;
+    color: brown;
+}
+
+h1{
+    color: yellow;
+    background-color: forestgreen;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main{
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid forestgreen;
+}
+
+main input{
+    padding: 10px;
+}
+
+main input:focus{
+    outline: 2px solid brown;
+    border: none;
+}
+
+table{
+    width: 97%;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+table td, table th{
+    border-bottom: 1px solid;
+    padding: 20px 0;
+}
+
+table tr:nth-child(even){
+    background-color: brown;
+    color: #fff;
+}
+
+table tr:nth-child(odd){
+    background-color: forestgreen;
+    color: yellow;
+}
+
+table tr:first-of-type{
+    color: black;
+    background-color: transparent;
+}
